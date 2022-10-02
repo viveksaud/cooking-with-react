@@ -4,11 +4,12 @@
 @import './button.css';
 @import './recipe.css';
 @import './ingredient-list.css';
+@import './recipe-edit';
 
 
 *, *::before, *::after {
     font-family: Gotham Rounded,'Courier New',sans-serif;
-
+    box-sizing: border-box;
   }
   html{
     font-size: 25px;
